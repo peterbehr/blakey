@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Princeton in Beijing Student Portal</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <ul class="header">
+    <li class="orange">Princeton in Beijing Student Portal</li>
+    <li>Login</li>
+    <li>Register</li>
+    <li>Help</li>
+  </ul>
+
+<%= yield %>
+
+</body>
+</html>
