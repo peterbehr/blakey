@@ -7,6 +7,7 @@ gem 'pg', '~>0.15.1'
 gem 'figaro'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
+gem 'jquery-rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
